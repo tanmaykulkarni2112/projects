@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Video Focus",
+    "version": "1.0",
+    "author": "Tanmay Kulkarni :) ",
+    "description": "Blacks out other content on YouTube except for the video.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
