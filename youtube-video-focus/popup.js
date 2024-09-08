@@ -21,7 +21,7 @@ function focusOnVideo() {
     const videoContainer = videoElement.closest('.html5-video-player');
 
     const blackoutOverlay = document.createElement('div');
-    blackoutOverlay.id = 'blackoutOverlay'; /
+    blackoutOverlay.id = 'blackoutOverlay'; 
     blackoutOverlay.style.position = 'fixed';
     blackoutOverlay.style.top = '0';
     blackoutOverlay.style.left = '0';
