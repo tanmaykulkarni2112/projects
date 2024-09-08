@@ -2,25 +2,42 @@
 <html>
 <head>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 10px;
+    body{
+    font-family: 'Times New Roman', Times, serif;
+    /* margin: 0px; */
+    background-color: hsl(0, 0%, 90%);
+    /* border-radius: 10%; */
+    }
+    #focusButton{
+      margin-bottom: 5px;
     }
     .button {
       padding: 10px;
-      background-color: #a5a4a48a;
-      color: white;
+      background-color: hsl(0, 0%, 40%);
+      color: hsl(0, 0%, 90%);
       border: none;
       cursor: pointer;
-      border-radius: 8px; 
-      margin-bottom: 10px;
+      border-radius: 5px;
+      /* margin: 2px; */
       width: 100%;
+      font-size: 15px;
+      cursor: pointer;
     }
-    .button:hover {
-      background-color: #c7a7a7;
+    #focusButton:hover {
+    background-color: hsl(125, 100%, 38%);
+    }
+    #focusButton:active {
+      background-color: hsl(125, 90%, 58%);
+    }
+    #revertButton:hover {
+      background-color: hsl(0, 100%, 50%);
+    }
+    #revertButton:active {
+      background-color: hsl(0, 100%, 60%);
     }
   </style>
 </head>
+
 <body>
     <span>
     <button id="focusButton" class="button">Focus on Video</button>
